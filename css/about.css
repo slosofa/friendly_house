@@ -1,0 +1,25 @@
+
+.container_max-width_min {
+    max-width: 448px;
+}
+
+.about {
+    padding-top: 99px;
+    padding-bottom: 104px;
+}
+
+.about__title {
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 33px;
+}
+
+.about__text {
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 30px
+}
+
+.about__text:last-child {
+    margin: 0;
+}

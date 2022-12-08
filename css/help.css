@@ -1,0 +1,81 @@
+
+.help {
+    padding-top: 103px;
+    padding-bottom: 90px;
+}
+
+.help__title  {
+    font-size: 50px;
+    line-height: 60px;
+    color: #ff8a00;
+    text-align: center;
+    margin-bottom: 134px;
+}
+
+.help__list {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+}
+
+.help__item {
+    counter-increment: my-awesome-counter;
+    padding-left: 58px;
+}
+
+.help__item::marker {
+    content: counter(my-awesome-counter);
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #ff8a00;
+}
+
+.help__item-finance {
+    margin-bottom: 131px;
+    max-width: 430px;
+}
+
+.help__item-volunteer {
+    margin-bottom: 141px;
+    max-width: 620px;
+}
+
+.help__item-guardian {
+    margin: 0;
+    max-width: 518px;
+}
+
+.help__item-title {
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: super;
+}
+
+.help__item-title-finance {
+    margin-bottom: 36px;
+}
+
+.help__item-title-volunteer {
+    margin-bottom: 80px;
+}
+
+.help__item-title-guardian {
+    margin-bottom: 30px;
+}
+
+.help__item-text {
+    margin: 0 0 45px 0;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0;
+}
+
+.help__item-text:last-child {
+    margin: 0;
+}
+
+.help__item-text_font-weight-medium {
+    font-weight: 500;
+}
